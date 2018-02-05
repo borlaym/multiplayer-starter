@@ -2,7 +2,7 @@ import express from 'express';
 
 const app = express();
 
-app.get('/', (req, res) => res.json({
+app.get('/api/ping', (req, res) => res.json({
 	ping: 'pong'
 }));
 

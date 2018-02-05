@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+fetch('/api/ping')
+	.then(res => res.json())
+	.then(res => console.log(res));
+
 class App extends Component {
   render() {
     return (

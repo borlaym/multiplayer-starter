@@ -19,6 +19,7 @@
     "build-storybook": "build-storybook -s public",
     "flow": "flow"
   },
+  "proxy": "http://localhost:9000",
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.12",
     "@storybook/addon-links": "^3.3.12",
